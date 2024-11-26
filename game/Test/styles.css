@@ -1,0 +1,191 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+.button {
+    background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+    padding: 6px 10px; /* Поля вокруг текста */
+    border: 3px solid #333; /* Параметры рамки */
+	border-radius: 16px; /* Радиус скругления */
+	box-shadow: 10 14px 8px rgba(0, 0, 0, 0.2);    /* Тень кнопок */
+	text-align: center; /* Выровнять текст */
+}
+ 
+.button_windows {
+    background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+    padding: 6px 20px; /* Поля вокруг текста */
+	border-radius: 16px; /* Радиус скругления */
+	box-shadow: 10 14px 8px rgba(0, 0, 0, 0.2);    /* Тень кнопок */
+	text-align: center; /* Выровнять текст */
+}
+
+.name_button {
+	font-family: 'Honday';  /* Вид шрифта */
+    font-size: 32px; /* Размер шрифта */
+    color: #4f1313; /* Цвет текста */
+}
+
+.name_div {
+	background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+	text-align: center; /* Выровнять текст */
+	position:absolute;
+	border-radius: 6px; /* Радиус скругления */
+	top: 20px;
+	left: 35%;
+	right: 39%;
+}
+
+.name_locat {
+	text-align: center; /* Выровнять текст */
+	font-family: 'Arbor'; /* Вид шрифта */
+    font-size: 40px; /* Размер шрифта */
+    color: #2C1D3D; /* Цвет текста */
+}
+
+
+.txt_div {
+	margin: auto;
+	background: rgba(128, 128, 128, 0.8) ;    /* Фон */
+	border: 4px solid #333; /* Параметры рамки */
+	border-radius: 16px; /* Радиус скругления */
+	text-align: justify; /* Выравнивание шрифта */
+	padding: 16px 20px; /* Поля вокруг текста */
+	width: 95%;
+}
+
+.txt_locat {
+	font-family: 'Arbor'; /* Вид шрифта */
+    font-size: 30px; /* Размер шрифта */
+    color: #423C68; /* Цвет текста */
+}
+
+.info_bar {
+	background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+	text-align: center; /* Выровнять текст */
+	padding: 16px; /* Поля вокруг текста */
+	border: 6px solid rgba(119, 136, 153, 0.9); /* Параметры рамки */
+	position:absolute;
+	border-radius: 18px; /* Радиус скругления */
+	height: 6%;
+	top: 1%;
+	left: 2%;
+	width: 96%;
+}
+
+.info_bar_contener {
+	font-family: 'Arbor'; /* Вид шрифта */
+	color: #1F0026; /* Цвет текста */
+    font-size: 19px; /* Размер шрифта */
+	position:absolute;
+	top: 12%;
+	left: 5%;
+}
+
+.contener_render {
+	background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+	padding: 1%; /* Поля вокруг текста */
+	position:absolute;
+	border-radius: 8px; /* Радиус скругления */
+	top: 8%;
+	height: 41%;
+	left: 2%;
+	right: 2%;
+}
+
+.img_render {
+	border-radius: 8px; /* Радиус скругления */
+	position:absolute;
+	max-width: 98%;
+	height: 97%;
+}
+
+.txt_render {
+	background: rgba(60, 60, 60, 0.9); /* Фон градиентом */
+	text-align:justify; /* Выровнять текст */
+	font-family: 'Arbor'; /* Вид шрифта */
+	color: #B6B4FF; /* Цвет текста */
+    font-size: 28px; /* Размер шрифта */
+	padding: 2% 3%; /* Поля вокруг текста */
+	border: 3px solid #333; /* Параметры рамки */
+	position:absolute;
+	border-radius: 8px; /* Радиус скругления */
+	top: 58%;
+	height: 39%;
+	left: 2%;
+	right: 2%;
+}
+
+.img_act_render {
+	border-radius: 8px; /* Радиус скругления */
+	position:absolute;
+	max-width: 95.7%;
+	height: 61%;
+}
+
+.txt_act_render {
+	background: linear-gradient(to top, rgba(1, 1, 1, 1) 0%, rgba(1, 1, 1, 1) 84%, rgba(128, 128, 128, 0.0) 100%);    /* Фон градиентом */
+	text-align:justify; /* Выровнять текст */
+	padding: 20% 3%; /* Поля вокруг текста */
+	font-family: 'Arbor'; /* Вид шрифта */
+    font-size: 28px; /* Размер шрифта */
+    color: #FFBD5D; /* Цвет текста */
+	position:absolute;
+	border-radius: 0px 0px 8px 8px; /* Радиус скругления */
+	top: 56%;
+	height: 43%;
+	left: 2%;
+	right: 2%;
+}
+
+.act_render_left {
+	background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+	text-align:justify; /* Выровнять текст */
+	padding: 1%; /* Поля вокруг текста */
+	position:absolute;
+	border-radius: 8px; /* Радиус скругления */
+	top: 51%;
+	height: 46%;
+	left: 2%;
+	width: 47%;
+}
+
+.act_render_right {
+	background: linear-gradient(to top, rgba(128, 128, 128, 0.8) 0%, rgba(119, 136, 153, 0.8) 36%, rgba(47, 79, 79, 0.8) 100%);    /* Фон градиентом */
+	text-align: justify; /* Выровнять текст */
+	padding: 1%; /* Поля вокруг текста */
+	position:absolute;
+	border-radius: 8px; /* Радиус скругления */
+	top: 51%;
+	height: 46%;
+	right: 2%;
+	width: 47%;
+}
+
+/* Подключаемые шрифты */
+/* Honday */
+@font-face {
+    font-family: 'Honday';
+    src: url('fonts/Honday.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Hlobus */
+@font-face {
+    font-family: 'Hlobus';
+    src: url('fonts/Hlobus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Arbor */
+@font-face {
+    font-family: 'Arbor';
+    src: url('fonts/Arbor.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

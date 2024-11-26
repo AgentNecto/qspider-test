@@ -1,0 +1,47 @@
+# start_menu
+	
+	SHOWINPUT 0 
+	SHOWSTAT 0 
+	SHOWACTS 0 
+	SHOWOBJS 0 
+	 
+	USEHTML = 1
+	
+	$onobjsel = 'on_object_select'
+	bcolor=rgb(62,65,52)
+		
+		if $windows = '':
+				 $windows = 'width'
+				gt curloc
+		elseif $windows = 'width':
+				'<img width=100% style="position:fixed; top: 0px; right: 0px; left: 0px; background-size: cover;" src="start\start_fon_0.jpg">' 
+				'<div style="position:fixed; top: 10px; right: 160px;"><a href="exec: $windows=''height'' & gt curloc"><button  class="button_windows">Режим вертикаль</button></a></div>'		 		
+		elseif $windows = 'height':
+				'<img width=100% style="position:fixed; top: 0px; right: 0px; left: 0px; background-size: cover;" src="start\start_fon_1.jpg">'
+ 				'<div style="position:fixed; top: 10px; right: 160px;"><a href="exec: $windows=''width'' & gt curloc"><button  class="button_windows">Режим горизонталь</button></a></div>'		 
+		end
+		
+		'<div style="position:fixed; top: 10px; right: 16px;"><button  class="button_windows" data-toggle-fullscreen>Режим окна</button></div>'
+		
+		'<a href="exec:gs ''data_locat'' & gt ''render_windows''"><div class="button" style="position:fixed; top: 310px; right: 26px; width: 220px;"><span class="name_button">Начало игры</span></div></a>'
+		'<a href="exec:OPENGAME"><div class="button" style="position:fixed; top: 400px; right: 26px; width: 210px;"><span class="name_button">Загрузить</span></div></a>'
+		'<a href="exec: gt ''setting_menu''"><div class="button" style="position:fixed; top: 490px; right: 26px; width: 200px;"><span class="name_button">Настройки</span></div></a>'
+		
+		'<div style="position:fixed; top: 42px; left: 4%;"><img height=100% src="start\name.png"></div>'
+	
+- start_menu -
+
+# setting_menu
+
+		if $windows = 'width':
+				'<img width=100% style="position:fixed; top: 0px; right: 0px; left: 0px; background-size: cover;" src="start\setting_0.jpg">' 
+				'<div style="position:fixed; top: 10px; right: 160px;"><a href="exec: $windows=''height'' & gt curloc"><button  class="button_windows">Режим вертикаль</button></a></div>'		 		
+		elseif $windows = 'height':
+				'<img width=100% style="position:fixed; top: 0px; right: 0px; left: 0px; background-size: cover;" src="start\setting_1.jpg">'
+ 				'<div style="position:fixed; top: 10px; right: 160px;"><a href="exec: $windows=''width'' & gt curloc"><button  class="button_windows">Режим горизонталь</button></a></div>'		 
+		end
+		'<a href="exec: gt ''start_menu''"><div style="position:fixed; top: 10px; left: 16px;"><button  class="button_windows">Вернуться</button></div></a>'
+		'<div style="position:fixed; top: 10px; right: 16px;"><button  class="button_windows" data-toggle-fullscreen>Режим окна</button></div>'
+	
+- setting_menu -
+
